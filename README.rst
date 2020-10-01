@@ -18,9 +18,12 @@
 .. _License: https://pypi.python.org/pypi/wolvr
 
 
+
 =====================================================
-A Simple and Powerful Machine Learning Python Library
+Utility Library Module for Advanced Machine Learning 
 =====================================================
+
+
 
 Install
 -------
@@ -28,6 +31,8 @@ Install
 .. code-block:: bash
 
    pip install wolvr
+
+
 
 -----
 
