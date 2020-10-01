@@ -7,7 +7,7 @@
 
 import setuptools
 
-import machlearn
+import wolvr
 
 with open("README.rst", "r") as fh:
     long_description = fh.read()
