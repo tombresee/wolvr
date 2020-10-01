@@ -2,20 +2,20 @@
 
 |BuildTest|_ |PythonVersion|_ |PyPi_version|_ |Downloads|_ |License|_
 
-.. |BuildTest| image:: https://travis-ci.com/daniel-yj-yang/machlearn.svg?branch=master
-.. _BuildTest: https://travis-ci.com/daniel-yj-yang/machlearn
+.. |BuildTest| image:: https://travis-ci.com/tombresee/wolvr.svg?branch=master
+.. _BuildTest: https://travis-ci.com/tombresee/wolvr
 
 .. |PythonVersion| image:: https://img.shields.io/badge/python-3.6%20%7C%203.7%20%7C%203.8-blue
 .. _PythonVersion: https://img.shields.io/badge/python-3.6%20%7C%203.7%20%7C%203.8-blue
 
-.. |PyPi_version| image:: https://img.shields.io/pypi/v/machlearn
-.. _PyPi_version: https://pypi.python.org/pypi/machlearn
+.. |PyPi_version| image:: https://img.shields.io/pypi/v/wolvr
+.. _PyPi_version: https://pypi.python.org/pypi/wolvr
 
-.. |Downloads| image:: https://pepy.tech/badge/machlearn
-.. _Downloads: https://pepy.tech/project/machlearn
+.. |Downloads| image:: https://pepy.tech/badge/wolvr
+.. _Downloads: https://pepy.tech/project/wolvr
 
-.. |License| image:: https://img.shields.io/pypi/l/machlearn
-.. _License: https://pypi.python.org/pypi/machlearn
+.. |License| image:: https://img.shields.io/pypi/l/wolvr
+.. _License: https://pypi.python.org/pypi/wolvr
 
 
 =====================================================
@@ -27,7 +27,7 @@ Install
 
 .. code-block:: bash
 
-   pip install machlearn
+   pip install wolvr
 
 -----
 
@@ -36,7 +36,7 @@ Example 1: Naive Bayes
 
 .. code-block:: python
    
-   from machlearn import naive_bayes as nb
+   from wolvr import naive_bayes as nb
    nb.demo(dataset="SMS_spam")
 
 
@@ -75,13 +75,13 @@ Selected Output:
    * - |image_naive_bayes_ROC_curve| 
      - |image_naive_bayes_PR_curve| 
 
-.. |image_naive_bayes_confusion_matrix| image:: https://github.com/daniel-yj-yang/machlearn/raw/master/examples/naive_bayes/images/demo_confusion_matrix.png
+.. |image_naive_bayes_confusion_matrix| image:: https://github.com/tombresee/wolvr/raw/master/examples/naive_bayes/images/demo_confusion_matrix.png
    :width: 400px
 
-.. |image_naive_bayes_ROC_curve| image:: https://github.com/daniel-yj-yang/machlearn/raw/master/examples/naive_bayes/images/demo_ROC_curve.png
+.. |image_naive_bayes_ROC_curve| image:: https://github.com/tombresee/wolvr/raw/master/examples/naive_bayes/images/demo_ROC_curve.png
    :width: 400px
    
-.. |image_naive_bayes_PR_curve| image:: https://github.com/daniel-yj-yang/machlearn/raw/master/examples/naive_bayes/images/demo_PR_curve.png
+.. |image_naive_bayes_PR_curve| image:: https://github.com/tombresee/wolvr/raw/master/examples/naive_bayes/images/demo_PR_curve.png
    :width: 400px
 
 
@@ -92,7 +92,7 @@ Example 2: k-Nearest Neighbors
 
 .. code-block:: python
    
-   from machlearn import kNN
+   from wolvr import kNN
    kNN.demo("Social_Network_Ads")
 
 
@@ -121,13 +121,13 @@ Selected Output:
    * - |image_kNN_ROC_curve| 
      - |image_kNN_PR_curve| 
 
-.. |image_kNN_confusion_matrix| image:: https://github.com/daniel-yj-yang/machlearn/raw/master/examples/kNN/images/Social_Network_Ads_cm.png
+.. |image_kNN_confusion_matrix| image:: https://github.com/tombresee/wolvr/raw/master/examples/kNN/images/Social_Network_Ads_cm.png
    :width: 400px
 
-.. |image_kNN_ROC_curve| image:: https://github.com/daniel-yj-yang/machlearn/raw/master/examples/kNN/images/Social_Network_Ads_ROC_curve.png
+.. |image_kNN_ROC_curve| image:: https://github.com/tombresee/wolvr/raw/master/examples/kNN/images/Social_Network_Ads_ROC_curve.png
    :width: 400px
    
-.. |image_kNN_PR_curve| image:: https://github.com/daniel-yj-yang/machlearn/raw/master/examples/kNN/images/Social_Network_Ads_PR_curve.png
+.. |image_kNN_PR_curve| image:: https://github.com/tombresee/wolvr/raw/master/examples/kNN/images/Social_Network_Ads_PR_curve.png
    :width: 400px
 
 
@@ -138,13 +138,13 @@ Example 3: Decision Boundary Comparison
 
 .. code-block:: python
    
-   from machlearn import kNN
+   from wolvr import kNN
    kNN.demo("Social_Network_Ads")
 
-   from machlearn import naive_bayes as nb
+   from wolvr import naive_bayes as nb
    nb.demo("Social_Network_Ads")
 
-   from machlearn import SVM
+   from wolvr import SVM
    SVM.demo("Social_Network_Ads")
 
 
@@ -158,13 +158,13 @@ Example 3: Decision Boundary Comparison
      -
 
 
-.. |image_kNN_decision_boundary_testing_set| image:: https://github.com/daniel-yj-yang/machlearn/raw/master/examples/kNN/images/Social_Network_Ads_decision_boundary_testing_set.png
+.. |image_kNN_decision_boundary_testing_set| image:: https://github.com/tombresee/wolvr/raw/master/examples/kNN/images/Social_Network_Ads_decision_boundary_testing_set.png
    :width: 400px
 
-.. |image_Gaussian_NB_decision_boundary_testing_set| image:: https://github.com/daniel-yj-yang/machlearn/raw/master/examples/naive_bayes/images/demo_Social_Network_Ads_decision_boundary_testing_set.png
+.. |image_Gaussian_NB_decision_boundary_testing_set| image:: https://github.com/tombresee/wolvr/raw/master/examples/naive_bayes/images/demo_Social_Network_Ads_decision_boundary_testing_set.png
    :width: 400px
 
-.. |image_SVM_decision_boundary_testing_set| image:: https://github.com/daniel-yj-yang/machlearn/raw/master/examples/SVM/images/Social_Network_Ads_decision_boundary_testing_set.png
+.. |image_SVM_decision_boundary_testing_set| image:: https://github.com/tombresee/wolvr/raw/master/examples/SVM/images/Social_Network_Ads_decision_boundary_testing_set.png
    :width: 400px
 
 -----
