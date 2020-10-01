@@ -17,7 +17,7 @@ with open("requirements.txt") as fh:
 
 setuptools.setup(
     name="wolvr",
-    version=wolvr.__version__,
+    version="0.0.1",
     author="Tom Bresee",
     author_email="tbresee@umich.edu",
     description="Utility Belt for Machine Learning",
