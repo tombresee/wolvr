@@ -16,15 +16,15 @@ with open("requirements.txt") as fh:
     required = fh.read().splitlines()
 
 setuptools.setup(
-    name="machlearn",
-    version=machlearn.__version__,
-    author="Daniel Yang",
-    author_email="daniel.yj.yang@gmail.com",
-    description="Machine Learning Python Library",
+    name="wolvr",
+    version=wolvr.__version__,
+    author="Tom Bresee",
+    author_email="tbresee@umich.edu",
+    description="Utility Belt for Machine Learning",
     license="BSD 3-Clause",
     long_description=long_description,
     long_description_content_type="text/x-rst",
-    url="https://github.com/daniel-yj-yang/machlearn",
+    url="https://github.com/tombresee/wolvr",
     packages=setuptools.find_packages(),
     classifiers=[  # https://pypi.org/classifiers/
         "Topic :: Scientific/Engineering",
