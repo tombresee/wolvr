@@ -1,1 +1,1 @@
-recursive-include machlearn/datasets/public *
+recursive-include wolvr/datasets/public *
