@@ -15,6 +15,7 @@ with open("README.rst", "r") as fh:
 with open("requirements.txt") as fh:
     required = fh.read().splitlines()
 
+
 setuptools.setup(
     name="wolvr",
     version="0.0.1",

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Author: Daniel Yang <daniel.yj.yang@gmail.com>
+# Author: Tom Bresee <tbresee@umich.edu>
 #
 # License: BSD 3 clause
 
